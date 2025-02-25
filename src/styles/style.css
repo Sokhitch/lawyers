@@ -128,7 +128,7 @@ p {
   }
 }
 .preview {
-  background-image: url("./src/images/Library.webp");
+  background-image: url("../images/Library.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -353,7 +353,7 @@ p {
   }
 }
 .reviews {
-  background-image: url("/src/images/Фон блока.webp");
+  background-image: url("../images/Фон блока.webp");
   height: 80vh;
   background-repeat: no-repeat;
   background-position: center;
