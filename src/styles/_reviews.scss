@@ -1,0 +1,49 @@
+.reviews {
+  background-image: url("/src/images/Фон\ блока.webp");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0;
+  &-line {
+    margin: 10px 0 48px;
+  }
+  &__text {
+    max-width: 584px;
+    margin-top: 16px;
+  }
+  &-card__name {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  &__hero {
+    margin: 15px 24px;
+  }
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__card {
+    background-color: #fff;
+    padding: 32px 32px;
+  }
+  &__svg {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-side {
+    display: flex;
+  }
+  &__btn {
+    padding: 16px 24px;
+    color: #222;
+    background-color: #e6e6e6;
+    margin-top: 32px;
+    &--liked {
+      margin: 32px 24px;
+      padding: 16px 24px;
+      color: #fff;
+      background-color: #4f8ff0;
+    }
+  }
+}

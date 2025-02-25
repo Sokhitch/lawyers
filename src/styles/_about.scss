@@ -1,0 +1,52 @@
+.about {
+  padding: 80px 0 80px;
+  &__title {
+    font-size: 28px;
+    font-weight: 900;
+    &--stressed {
+      color: $primary-color;
+    }
+  }
+  &__text {
+    font-size: 16px;
+
+    &-gap {
+      margin: 30px 0;
+    }
+  }
+  &__img {
+    margin: 24px 0;
+  }
+
+  &__left-side {
+    width: 720px;
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  &__btn {
+    padding: 16px 24px;
+    background-color: #e6e6e6;
+    color: #222;
+    font-weight: 900;
+    margin: 48px 24px;
+    &--liked {
+      padding: 16px 24px;
+      margin-top: 24px;
+      background-color: $primary-color;
+      color: $secondary-color;
+    }
+  }
+}
+@media screen and (max-width: 850px) {
+  .about {
+    &__title {
+      font-size: 24px;
+    }
+    &-right__image {
+      display: none;
+    }
+  }
+}
